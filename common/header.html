@@ -1,0 +1,83 @@
+<div class="header">
+    <!-- ══════ IEEE LOGO BAR ══════ -->
+    <div class="ieee-bar">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-around flex-wrap gap-2">
+                <div class="ieee-logo-item">
+                    <!-- <div class="ieee-logo-box" style="font-size:1.5rem;font-weight:900;color:var(--navy)">◇ IEEE</div> -->
+                    <img src="images/ieee_logo.webp" alt="IEEE Logo"
+                        style="height:40px;filter:drop-shadow(0 0 1px rgba(0,0,0,.3))">
+                </div>
+                <div class="ieee-logo-item">
+                    <img src="images/MITS-Logo.png" alt="MITS Logo"
+                        style="height:40px;filter:drop-shadow(0 0 1px rgba(0,0,0,.3))">
+                </div>
+                <div class="ieee-logo-item">
+                    <img src="images/ieee_kerala_logo.webp" alt="IEEE Kerala Logo"
+                        style="height:40px;filter:drop-shadow(0 0 1px rgba(0,0,0,.3))">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════ MAIN NAV ══════ -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <!-- <a class="nav-brand" href="#" onclick="showPage('home')">
+					<div class="nav-brand-globe">🌐</div>
+					<div class="nav-brand-text">ICSCC 2027<span>International Conference on Smart Computing &
+							Communications</span></div>
+				</a> -->
+                <button class="navbar-toggler d-lg-none border-0 text-white" type="button" onclick="toggleMobileNav()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="d-none d-lg-flex align-items-center flex-wrap" id="mainNav">
+                    <img src="" alt="">
+                    <a class="navlink active" id="nl-home" href="index.html">Home</a>
+                    <a class="navlink" id="nl-about" href="about.html">About</a>
+                    <a class="navlink" id="nl-cfp" href="cfp.html" onclick="nav('cfp')">CFP</a>
+                    <a class="navlink" id="nl-tracks" href="tracks.html" onclick="nav('tracks')">Conference Tracks</a>
+                    <a class="navlink" id="nl-registration" href="registration.html" onclick="nav('registration')">Registration</a>
+                    <a class="navlink" id="nl-dates" href="dates.html" onclick="nav('dates')">Important Dates</a>
+                    <a class="navlink" id="nl-speakers" href="speakers.html" onclick="nav('speakers')">Speakers</a>
+                    <a class="navlink" id="nl-committee" href="committee.html" onclick="nav('committee')">Committees</a>
+                    <a class="navlink" id="nl-venue" href="venue.html" onclick="nav('venue')">Venue & Accommodation</a>
+                    <a class="navlink" id="nl-schedule" href="schedule.html" onclick="nav('schedule')">Schedule</a>
+                    <a class="navlink" id="nl-publication" href="publication.html" onclick="nav('publication')">Publication</a>
+                    <a class="navlink" id="nl-sessions" href="sessions.html" onclick="nav('sessions')">Special Sessions</a>
+                </div>
+                <!-- Mobile Nav -->
+                <div class="w-100 d-lg-none" id="mobileNav" style="display:none!important">
+                    <div class="d-flex flex-wrap gap-1 pb-3 pt-1">
+                        <a class="navlink" href="index.html" onclick="nav('home');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Home</a>
+                        <a class="navlink" href="about.html" onclick="nav('about');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">About</a>
+                        <a class="navlink" href="cfp.html" onclick="nav('cfp');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">CFP</a>
+                        <a class="navlink" href="tracks.html" onclick="nav('tracks');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Tracks</a>
+                        <a class="navlink" href="registration.html" onclick="nav('registration');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Registration</a>
+                        <a class="navlink" href="dates.html" onclick="nav('dates');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Dates</a>
+                        <a class="navlink" href="speakers.html" onclick="nav('speakers');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Speakers</a>
+                        <a class="navlink" href="committee.html" onclick="nav('committee');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Committee</a>
+                        <a class="navlink" href="venue.html" onclick="nav('venue');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Venue</a>
+                        <a class="navlink" href="schedule.html" onclick="nav('schedule');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Schedule</a>
+                        <a class="navlink" href="publication.html" onclick="nav('publication');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Publication</a>
+                        <a class="navlink" href="sessions.html" onclick="nav('sessions');toggleMobileNav()"
+                            style="padding:8px!important;font-size:.75rem">Sessions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</div>

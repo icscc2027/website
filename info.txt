@@ -1,0 +1,53 @@
+Title: International Conference on Smart Computing and Communications (ICSCC 2027)
+Theme: Intelligent Technologies for Smart and Sustainable Futures
+
+Date and Venue
+3–5 July 2027
+Muthoot Institute of Technology and Science, Kochi, Kerala
+
+About MITS
+Rooted in Tradition, Engineered for the Future
+MITS is a self financing technical institution offering postgraduate and undergraduate engineering programmes, situated in the industrial suburb of Kochi, close to the Smart City and Info Park, approximately 15 kms from Vytilla Junction towards Muvattupuzha on the Cochin Madurai National Highway.
+The promoters with their commanding presence in the domains of Financial Services, Hospitality, Healthcare, Renewable Energy and Information Technology, are committed to building MITS as a centre of excellence, focusing purely on merit.
+
+About ICSCC 2027
+Welcome to the International Conference on Smart Computing and Communications (ICSCC 2027), a premier international forum bringing together researchers, academicians, industry professionals, and innovators to exchange ideas and advancements in smart computing, communication technologies, and intelligent systems. Scheduled to be held in Kochi, Kerala, India, ICSCC 2027 aims to foster collaboration between academia and industry while showcasing cutting-edge research, practical applications, and emerging technological trends.
+With the theme “Intelligent Technologies for Smart and Sustainable Futures”, ICSCC 2027 focuses on the transformative role of intelligent technologies in building sustainable, efficient, and connected systems across diverse domains including Computer Science, Communication, Electronics, Artificial Intelligence, and Energy Systems. The conference will feature keynote talks, technical paper presentations, workshops, and interactive sessions designed to inspire innovation and knowledge sharing among global participants.
+Building on its strong legacy as a distinguished conference series, ICSCC continues to serve as a vibrant platform for discussing state-of-the-art developments and future directions in smart technologies. Researchers and practitioners are invited to contribute high-quality theoretical and experimental work and join us in shaping the future of intelligent and sustainable technologies.
+
+
+Track 01
+Smart Computing
+AI, ML, quantum computing, HPC, algorithms, cloud/edge computing and computational technologies.
+
+Track 02
+Communication & Signal Processing
+5G/6G, communication systems, networking, wireless networks, protocols, signal processing and network performance.
+
+Track 03
+Technology (Systems for a secure and sustainable world)
+IoT, connected systems, cybersecurity, privacy, secure computing and sustainable technologies.
+
+Track 04
+Intelligent Systems & Analytics
+Data science, big-data analytics, knowledge discovery and intelligent applications.
+
+Track 05
+Smart Embedded Systems
+Embedded systems, VLSI, FPGA, SoC, sensors and embedded intelligence.
+
+Track 06
+Power Systems, Energy Systems and Power Electronics
+Power systems, renewable energy, smart grids, energy storage, EVs and power electronics.
+
+
+Contact
+Muthoot Institute of Technology & Science
+Varikoli P.O., Puthencruz, Ernakulam
+Kerala – 682 308, India
+
+icscc2027@mgits.ac.in
+
++91-9495686350
+
+icscc.mgmits.ac.in

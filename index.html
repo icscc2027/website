@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICSCC 2027 | International Conference on Smart Computing and Communications</title>
+  <meta name="description" content="International Conference on Smart Computing and Communications (ICSCC 2027) - 3–5 July 2027 at Muthoot Institute of Technology and Science (MITS), Kochi, Kerala, India.">
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/48/conference-call.png">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-white text-slate-800 flex flex-col min-h-screen">
+
+  <!-- Top Utility Bar (Academic Deep Navy) -->
+  <div class="bg-[#05162B] text-slate-300 text-[11px] sm:text-xs py-2 px-4 border-b border-blue-950">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+      <!-- Left: Date & Venue -->
+      <div class="flex items-center flex-wrap gap-2 text-slate-300 justify-center md:justify-start">
+        <span class="inline-flex items-center gap-1.5 text-sky-400 font-semibold">
+          <i class="fa-solid fa-calendar-days text-[11px]"></i> 3–5 July 2027
+        </span>
+        <span class="text-slate-600">|</span>
+        <span class="inline-flex items-center gap-1.5 text-slate-300">
+          <i class="fa-solid fa-location-dot text-rose-400 text-[11px]"></i> Muthoot Institute of Technology and Science (MITS), Kochi, Kerala, India
+        </span>
+      </div>
+      <!-- Right: Direct Helpdesk & Academic Links -->
+      <div class="flex items-center gap-4 text-[11px] font-medium text-slate-300">
+        <a href="mailto:icscc2027@mgits.ac.in" class="hover:text-sky-300 transition flex items-center gap-1.5">
+          <i class="fa-regular fa-envelope text-sky-400"></i> icscc2027@mgits.ac.in
+        </a>
+        <span class="text-slate-600 hidden sm:inline">|</span>
+        <a href="tel:+919495686350" class="hover:text-sky-300 transition hidden sm:flex items-center gap-1.5">
+          <i class="fa-solid fa-phone text-sky-400"></i> +91-9495686350
+        </a>
+        <span class="text-slate-600 hidden lg:inline">|</span>
+        <a href="http://icscc.mgmits.ac.in" target="_blank" class="hover:text-sky-300 transition hidden lg:flex items-center gap-1.5">
+          <i class="fa-solid fa-globe text-sky-400"></i> icscc.mgmits.ac.in
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Institutional Brand Identity Header (White / Clean Prestige) -->
+  <div class="bg-white border-b border-slate-200 py-4 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-4">
+      
+      <!-- Brand & Conference Identity -->
+      <a href="index.html" class="flex items-center gap-4 group text-left">
+        <!-- Logo Emblem -->
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-tr from-[#002855] via-[#00427A] to-[#00629B] flex items-center justify-center text-white shadow-md border border-blue-900 group-hover:scale-105 transition-transform flex-shrink-0">
+          <div class="relative flex items-center justify-center">
+            <i class="fa-solid fa-shield-halved text-2xl text-white"></i>
+            <i class="fa-solid fa-network-wired text-sky-300 text-[10px] absolute"></i>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="text-2xl sm:text-3xl font-black text-[#002855] tracking-tight font-heading">ICSCC 2027</span>
+            <span class="bg-blue-100 text-[#002855] border border-blue-200 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">9th Edition</span>
+          </div>
+          <p class="text-xs sm:text-sm font-semibold text-slate-700 tracking-tight leading-tight mt-0.5">
+            International Conference on Smart Computing and Communications
+          </p>
+          <p class="text-[11px] text-slate-500 font-medium mt-0.5 flex items-center gap-1.5">
+            <i class="fa-solid fa-building-columns text-blue-700"></i>
+            <span>Muthoot Institute of Technology and Science (MITS), Kochi</span>
+          </p>
+        </div>
+      </a>
+
+      <!-- Right Side: Conference Theme Badge & Quick Action -->
+      <div class="hidden lg:flex items-center gap-6">
+        <div class="text-right border-r border-slate-200 pr-6">
+          <span class="text-[10px] font-bold uppercase tracking-widest text-blue-900 block">Conference Theme</span>
+          <span class="text-xs font-semibold text-slate-600 italic">“Intelligent Technologies for Smart & Sustainable Futures”</span>
+        </div>
+        <a href="submission.html" class="inline-flex items-center gap-2 bg-[#002855] hover:bg-[#003B73] text-white px-5 py-2.5 rounded-xl font-semibold text-xs shadow-md transition hover:shadow-lg">
+          <i class="fa-solid fa-paper-plane text-sky-400 text-xs"></i>
+          <span>Submit Paper</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Primary Sticky Navigation Bar (Deep Navy Academic Bar) -->
+  <header class="sticky top-0 z-50 bg-[#002855] text-white shadow-lg border-b border-blue-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+        
+        <!-- Navigation Menu -->
+        <nav class="hidden xl:flex items-center space-x-1 text-[13px] font-medium tracking-wide">
+          <a href="index.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Home</a>
+          
+          <!-- About Dropdown -->
+          <div class="nav-dropdown">
+            <a href="about.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition flex items-center gap-1.5">
+              <span>About</span>
+              <i class="fa-solid fa-chevron-down text-[9px] text-sky-400"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="about.html" class="nav-dropdown-item">
+                <i class="fa-solid fa-info-circle text-blue-600 text-xs"></i>
+                <span>About ICSCC 2027</span>
+              </a>
+              <a href="about.html#mits" class="nav-dropdown-item">
+                <i class="fa-solid fa-building-columns text-blue-600 text-xs"></i>
+                <span>About Host (MITS)</span>
+              </a>
+              <a href="about.html#objectives" class="nav-dropdown-item">
+                <i class="fa-solid fa-bullseye text-blue-600 text-xs"></i>
+                <span>Scope & Objectives</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- CFP & Tracks Dropdown -->
+          <div class="nav-dropdown">
+            <a href="call-for-papers.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition flex items-center gap-1.5">
+              <span>Call for Papers</span>
+              <i class="fa-solid fa-chevron-down text-[9px] text-sky-400"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="call-for-papers.html" class="nav-dropdown-item">
+                <i class="fa-solid fa-file-lines text-blue-600 text-xs"></i>
+                <span>CFP Overview</span>
+              </a>
+              <a href="call-for-papers.html#track-1" class="nav-dropdown-item">
+                <i class="fa-solid fa-brain text-blue-600 text-xs"></i>
+                <span>Track 1: Smart Computing</span>
+              </a>
+              <a href="call-for-papers.html#track-2" class="nav-dropdown-item">
+                <i class="fa-solid fa-tower-broadcast text-blue-600 text-xs"></i>
+                <span>Track 2: Comm & Signal Processing</span>
+              </a>
+              <a href="call-for-papers.html#track-3" class="nav-dropdown-item">
+                <i class="fa-solid fa-shield-halved text-blue-600 text-xs"></i>
+                <span>Track 3: Secure & Sustainable World</span>
+              </a>
+              <a href="call-for-papers.html#track-4" class="nav-dropdown-item">
+                <i class="fa-solid fa-chart-pie text-blue-600 text-xs"></i>
+                <span>Track 4: Intelligent Systems & Analytics</span>
+              </a>
+              <a href="call-for-papers.html#track-5" class="nav-dropdown-item">
+                <i class="fa-solid fa-microchip text-blue-600 text-xs"></i>
+                <span>Track 5: Smart Embedded Systems</span>
+              </a>
+              <a href="call-for-papers.html#track-6" class="nav-dropdown-item">
+                <i class="fa-solid fa-bolt text-blue-600 text-xs"></i>
+                <span>Track 6: Power & Energy Systems</span>
+              </a>
+            </div>
+          </div>
+
+          <a href="submission.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Author Guidelines</a>
+          <a href="dates.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Important Dates</a>
+          <a href="committees.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Committees</a>
+          <a href="keynotes.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Keynotes</a>
+          <a href="registration.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Registration</a>
+          <a href="venue.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Venue & Travel</a>
+          <a href="contact.html" class="nav-link px-3 py-2 rounded-lg hover:text-sky-300 transition">Contact</a>
+        </nav>
+
+        <!-- Right Side: Mobile Brand Title & Menu Trigger -->
+        <div class="flex items-center justify-between w-full xl:w-auto">
+          <div class="xl:hidden flex items-center gap-2">
+            <span class="font-extrabold text-white text-base tracking-tight font-heading">ICSCC 2027</span>
+            <span class="text-[11px] text-sky-300 font-medium">• MITS Kochi</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="submission.html" class="xl:hidden text-xs bg-sky-500 hover:bg-sky-400 text-blue-950 font-bold px-3 py-1.5 rounded-lg shadow">
+              Submit
+            </a>
+            <button id="mobile-menu-btn" class="xl:hidden p-2 rounded-lg text-slate-200 hover:bg-blue-900 focus:outline-none" aria-label="Open Mobile Menu">
+              <i class="fa-solid fa-bars text-lg"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Desktop Quick Submissions Pill on Right of Nav -->
+        <div class="hidden xl:flex items-center gap-3">
+          <a href="submission.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-400 to-sky-300 hover:from-sky-300 hover:to-sky-200 text-blue-950 px-4 py-1.5 rounded-lg font-bold text-xs shadow-md transition transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-cloud-arrow-up text-xs"></i>
+            <span>Portal Login</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden">
+    <div class="fixed inset-y-0 right-0 max-w-xs w-full bg-white shadow-2xl p-6 flex flex-col justify-between overflow-y-auto">
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b border-slate-200">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-lg bg-blue-900 flex items-center justify-center text-white font-bold">
+              <i class="fa-solid fa-network-wired text-sky-400 text-sm"></i>
+            </div>
+            <span class="font-extrabold text-blue-950 text-lg">ICSCC 2027</span>
+          </div>
+          <button id="mobile-menu-close" class="p-2 text-slate-500 hover:text-slate-800" aria-label="Close Mobile Menu">
+            <i class="fa-solid fa-xmark text-xl"></i>
+          </button>
+        </div>
+        <nav class="mt-6 flex flex-col space-y-3 font-medium text-slate-700 text-sm">
+          <a href="index.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Home</a>
+          <a href="about.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">About</a>
+          <a href="call-for-papers.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Call for Papers</a>
+          <a href="submission.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Submission Guidelines</a>
+          <a href="dates.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Important Dates</a>
+          <a href="committees.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Committees</a>
+          <a href="keynotes.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Keynote Speakers</a>
+          <a href="registration.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Registration</a>
+          <a href="venue.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Venue & Travel</a>
+          <a href="contact.html" class="nav-link px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-800">Contact</a>
+        </nav>
+      </div>
+      <div class="pt-6 border-t border-slate-200">
+        <a href="submission.html" class="w-full flex items-center justify-center gap-2 bg-blue-800 hover:bg-blue-900 text-white py-3 rounded-xl font-semibold text-sm shadow">
+          <i class="fa-solid fa-paper-plane text-xs"></i>
+          Submit Paper Now
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white overflow-hidden py-20 lg:py-28">
+    <!-- Subtle Tech Background Grid & Glow Overlay -->
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+      <!-- Main Title -->
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white font-heading leading-tight max-w-5xl mx-auto">
+        International Conference on <br class="hidden sm:inline">
+        <span class="bg-gradient-to-r from-sky-300 via-blue-200 to-white bg-clip-text text-transparent">Smart Computing and Communications</span>
+      </h1>
+
+      <!-- Acronym and Year Tag -->
+      <div class="mt-4 flex items-center justify-center gap-3">
+        <span class="text-2xl sm:text-3xl font-black text-sky-400 tracking-wide font-heading">ICSCC 2027</span>
+      </div>
+
+      <!-- Theme Tagline -->
+      <p class="mt-5 text-lg sm:text-xl text-sky-100 font-medium italic max-w-3xl mx-auto">
+        “Intelligent Technologies for Smart and Sustainable Futures”
+      </p>
+
+      <!-- Date & Venue Bar -->
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm font-semibold text-slate-200">
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10">
+          <i class="fa-solid fa-calendar-days text-sky-400"></i>
+          <span>3–5 July 2027</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10">
+          <i class="fa-solid fa-location-dot text-sky-400"></i>
+          <span>Muthoot Institute of Technology and Science (MITS), Kochi, Kerala, India</span>
+        </div>
+      </div>
+
+      <!-- Live Countdown Timer -->
+      <div class="mt-10 max-w-2xl mx-auto">
+        <div class="text-xs uppercase tracking-widest text-sky-300 font-bold mb-3 flex items-center justify-center gap-2">
+          <i class="fa-regular fa-clock"></i> Conference Countdown
+        </div>
+        <div id="countdown-timer" class="grid grid-cols-4 gap-3 sm:gap-4 bg-white/5 border border-sky-500/20 rounded-2xl p-4 sm:p-6 backdrop-blur-md shadow-2xl">
+          <div class="text-center">
+            <span id="cd-days" class="block text-2xl sm:text-4xl font-black text-white font-heading">--</span>
+            <span class="text-[10px] sm:text-xs text-sky-200 uppercase tracking-wider font-semibold">Days</span>
+          </div>
+          <div class="text-center border-l border-white/10">
+            <span id="cd-hours" class="block text-2xl sm:text-4xl font-black text-white font-heading">--</span>
+            <span class="text-[10px] sm:text-xs text-sky-200 uppercase tracking-wider font-semibold">Hours</span>
+          </div>
+          <div class="text-center border-l border-white/10">
+            <span id="cd-minutes" class="block text-2xl sm:text-4xl font-black text-white font-heading">--</span>
+            <span class="text-[10px] sm:text-xs text-sky-200 uppercase tracking-wider font-semibold">Minutes</span>
+          </div>
+          <div class="text-center border-l border-white/10">
+            <span id="cd-seconds" class="block text-2xl sm:text-4xl font-black text-sky-400 font-heading">--</span>
+            <span class="text-[10px] sm:text-xs text-sky-200 uppercase tracking-wider font-semibold">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <a href="submission.html" class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-400 text-blue-950 font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-sky-500/20 transition-all hover:scale-105">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Submit Your Paper</span>
+        </a>
+        <a href="call-for-papers.html" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-7 py-3.5 rounded-xl border border-white/20 backdrop-blur-md transition-all hover:scale-105">
+          <i class="fa-solid fa-file-lines text-sky-300"></i>
+          <span>Call for Papers & Tracks</span>
+        </a>
+        <a href="dates.html" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-xl border border-white/20 backdrop-blur-md transition-all hover:scale-105">
+          <i class="fa-solid fa-calendar-check text-sky-300"></i>
+          <span>Important Dates</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Statistics Strip -->
+  <section class="bg-blue-900 text-white py-8 border-y border-blue-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4">
+          <div class="text-3xl lg:text-4xl font-black text-sky-300 font-heading">6</div>
+          <div class="text-xs uppercase font-semibold tracking-wider text-sky-100 mt-1">Specialized Tracks</div>
+        </div>
+        <div class="p-4 border-l border-blue-800">
+          <div class="text-3xl lg:text-4xl font-black text-sky-300 font-heading">3</div>
+          <div class="text-xs uppercase font-semibold tracking-wider text-sky-100 mt-1">Conference Days</div>
+        </div>
+        <div class="p-4 border-l-0 md:border-l border-blue-800">
+          <div class="text-3xl lg:text-4xl font-black text-sky-300 font-heading">100%</div>
+          <div class="text-xs uppercase font-semibold tracking-wider text-sky-100 mt-1">Double-Blind Peer Review</div>
+        </div>
+        <div class="p-4 border-l border-blue-800">
+          <div class="text-3xl lg:text-4xl font-black text-sky-300 font-heading">Global</div>
+          <div class="text-xs uppercase font-semibold tracking-wider text-sky-100 mt-1">Speakers & Innovators</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-3 py-1 rounded-full">
+            <i class="fa-solid fa-circle-info"></i> Welcome to ICSCC 2027
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 font-heading leading-tight">
+            Advancing Smart Computing, Communications & Intelligent Systems
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-base">
+            The <strong>International Conference on Smart Computing and Communications (ICSCC 2027)</strong> is a premier international forum bringing together researchers, academicians, industry professionals, and innovators to exchange breakthrough ideas and advancements.
+          </p>
+          <p class="text-slate-600 leading-relaxed text-base">
+            With our theme <em>“Intelligent Technologies for Smart and Sustainable Futures”</em>, the conference emphasizes the transformative role of intelligent computing in building resilient, sustainable, and interconnected solutions across Computer Science, Electronics, AI, and Power Systems.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <i class="fa-solid fa-microchip text-blue-600 text-lg mt-1"></i>
+              <div>
+                <h4 class="font-bold text-sm text-slate-800">Cutting-Edge Research</h4>
+                <p class="text-xs text-slate-500">Explore AI, 5G/6G, IoT, and embedded intelligence.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 p-3 bg-white rounded-xl border border-slate-200 shadow-sm">
+              <i class="fa-solid fa-users text-blue-600 text-lg mt-1"></i>
+              <div>
+                <h4 class="font-bold text-sm text-slate-800">Global Networking</h4>
+                <p class="text-xs text-slate-500">Connect with distinguished scientists and industry pioneers.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4">
+            <a href="about.html" class="inline-flex items-center gap-2 text-blue-700 font-bold hover:text-blue-900 group">
+              <span>Learn more about ICSCC & Host Institution MITS</span>
+              <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="relative bg-white rounded-2xl p-6 shadow-xl border border-slate-200 gradient-card-top hover-lift">
+            <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold">
+                  <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-blue-950 text-base">Host Institution</h3>
+                  <p class="text-xs text-slate-500">Kochi, Kerala, India</p>
+                </div>
+              </div>
+              <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">Centre of Excellence</span>
+            </div>
+
+            <div class="mt-5 space-y-4 text-sm text-slate-600 leading-relaxed">
+              <h4 class="font-bold text-slate-800 text-base">Muthoot Institute of Technology and Science (MITS)</h4>
+              <p class="text-xs italic text-blue-700 font-semibold">“Rooted in Tradition, Engineered for the Future”</p>
+              <p class="text-xs">
+                MITS is a premier self-financing technical institution situated in the industrial suburb of Kochi, close to Smart City and InfoPark, approximately 15 kms from Vytilla Junction on the Cochin-Madurai National Highway.
+              </p>
+              <div class="p-3 bg-blue-50/60 rounded-xl text-xs text-blue-900 font-medium border border-blue-100">
+                <i class="fa-solid fa-certificate text-blue-600 mr-1.5"></i> Backed by the Muthoot Group with commanding leadership in Financial Services, Healthcare, and Information Technology.
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500"><i class="fa-solid fa-location-dot mr-1 text-red-500"></i> Puthencruz, Ernakulam</span>
+              <a href="venue.html" class="text-xs font-bold text-blue-600 hover:underline">Explore Venue &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Tracks Overview -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-3 py-1 rounded-full">
+          Conference Scope
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 font-heading mt-3">
+          6 Key Technical Tracks
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3">
+          We invite original, unpublished experimental and theoretical research papers spanning intelligent technologies and smart systems.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Track 01 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 01</span>
+              <i class="fa-solid fa-brain text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Smart Computing</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              AI, machine learning, quantum computing, high-performance computing (HPC), algorithms, cloud/edge computing, and modern computational technologies.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-1" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Track 02 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 02</span>
+              <i class="fa-solid fa-tower-broadcast text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Communication & Signal Processing</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              5G/6G systems, advanced communication systems, networking, wireless architectures, communication protocols, signal processing, and network performance.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-2" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Track 03 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 03</span>
+              <i class="fa-solid fa-shield-halved text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Technology for Secure & Sustainable World</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              Internet of Things (IoT), connected systems, cybersecurity, digital privacy, secure computing models, and sustainable green technologies.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-3" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Track 04 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 04</span>
+              <i class="fa-solid fa-chart-pie text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Intelligent Systems & Analytics</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              Data science, big-data analytics, knowledge discovery, predictive modeling, cognitive computing, and real-world intelligent applications.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-4" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Track 05 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 05</span>
+              <i class="fa-solid fa-microchip text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Smart Embedded Systems</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              Embedded systems, VLSI design, FPGA, System-on-Chip (SoC), intelligent sensors, edge hardware accelerators, and embedded intelligence.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-5" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Track 06 -->
+        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover-lift gradient-card-top flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">Track 06</span>
+              <i class="fa-solid fa-bolt text-2xl text-blue-700"></i>
+            </div>
+            <h3 class="font-bold text-lg text-blue-950 font-heading">Power Systems, Energy & Power Electronics</h3>
+            <p class="text-xs text-slate-600 mt-2.5 leading-relaxed">
+              Power systems engineering, renewable energy integration, smart grids, energy storage, Electric Vehicles (EVs), and advanced power electronics.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200 flex justify-between items-center text-xs">
+            <span class="text-slate-500 font-medium">Original research</span>
+            <a href="call-for-papers.html#track-6" class="text-blue-700 font-bold hover:underline">View Topics &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="call-for-papers.html" class="inline-flex items-center gap-2 bg-blue-900 hover:bg-blue-800 text-white font-bold px-8 py-3.5 rounded-xl shadow-md transition">
+          <span>Explore Detailed Topics & Download CFP</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Important Dates Preview -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-3 py-1 rounded-full">
+            Timeline
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 font-heading mt-3">
+            Important Dates
+          </h2>
+        </div>
+        <a href="dates.html" class="mt-4 md:mt-0 inline-flex items-center gap-2 text-sm font-bold text-blue-700 hover:text-blue-900">
+          <span>View complete schedule</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover-lift">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold mb-4">
+            <i class="fa-solid fa-file-arrow-up"></i>
+          </div>
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Milestone 01</span>
+          <h3 class="text-base font-bold text-blue-950 mt-1">Full Paper Submission</h3>
+          <p class="text-lg font-extrabold text-blue-700 mt-2 font-heading">15 March 2027</p>
+          <p class="text-xs text-slate-500 mt-2">Submit via portal before 23:59 IST</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover-lift">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold mb-4">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Milestone 02</span>
+          <h3 class="text-base font-bold text-blue-950 mt-1">Acceptance Notification</h3>
+          <p class="text-lg font-extrabold text-blue-700 mt-2 font-heading">10 May 2027</p>
+          <p class="text-xs text-slate-500 mt-2">Peer-review results dispatched</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover-lift">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold mb-4">
+            <i class="fa-solid fa-file-circle-check"></i>
+          </div>
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Milestone 03</span>
+          <h3 class="text-base font-bold text-blue-950 mt-1">Camera Ready & Reg.</h3>
+          <p class="text-lg font-extrabold text-blue-700 mt-2 font-heading">05 June 2027</p>
+          <p class="text-xs text-slate-500 mt-2">Final revised papers & author payment</p>
+        </div>
+
+        <div class="bg-blue-900 text-white p-6 rounded-2xl border border-blue-800 shadow-lg hover-lift">
+          <div class="w-10 h-10 rounded-xl bg-blue-800 text-sky-400 flex items-center justify-center font-bold mb-4">
+            <i class="fa-solid fa-calendar-star"></i>
+          </div>
+          <span class="text-xs font-semibold text-sky-300 uppercase tracking-wider">Conference Days</span>
+          <h3 class="text-base font-bold text-white mt-1">ICSCC 2027</h3>
+          <p class="text-xl font-extrabold text-sky-300 mt-2 font-heading">3–5 July 2027</p>
+          <p class="text-xs text-sky-200 mt-2">MITS Campus, Kochi, Kerala</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="py-16 bg-gradient-to-r from-blue-950 via-blue-900 to-sky-900 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <h2 class="text-3xl sm:text-4xl font-extrabold font-heading">Be Part of ICSCC 2027 at MITS, Kochi</h2>
+      <p class="mt-4 text-sky-100 max-w-2xl mx-auto text-base">
+        Join leading researchers, scientists, and academicians in sharing groundbreaking insights for a sustainable and intelligent tomorrow.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="submission.html" class="bg-sky-400 hover:bg-sky-300 text-blue-950 font-bold px-8 py-3.5 rounded-xl shadow-lg transition">
+          <i class="fa-solid fa-paper-plane mr-2"></i> Submit Paper
+        </a>
+        <a href="contact.html" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-8 py-3.5 rounded-xl backdrop-blur-md transition">
+          <i class="fa-regular fa-envelope mr-2"></i> Contact Secretariat
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="bg-slate-950 text-slate-400 pt-16 pb-8 border-t border-slate-800 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Col 1: Conference Info -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-lg bg-blue-700 flex items-center justify-center text-white font-bold">
+              <i class="fa-solid fa-network-wired text-sky-300 text-sm"></i>
+            </div>
+            <span class="text-xl font-bold text-white font-heading">ICSCC 2027</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            International Conference on Smart Computing and Communications. Theme: <em>Intelligent Technologies for Smart and Sustainable Futures</em>.
+          </p>
+          <div class="text-xs text-sky-400 font-semibold">
+            <i class="fa-regular fa-calendar mr-1"></i> 3–5 July 2027 • Kochi, India
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4 font-heading">Quick Links</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="about.html" class="hover:text-sky-400 transition">About Conference & MITS</a></li>
+            <li><a href="call-for-papers.html" class="hover:text-sky-400 transition">Call for Papers & Tracks</a></li>
+            <li><a href="submission.html" class="hover:text-sky-400 transition">Submission Guidelines</a></li>
+            <li><a href="dates.html" class="hover:text-sky-400 transition">Important Dates</a></li>
+            <li><a href="committees.html" class="hover:text-sky-400 transition">Organizing Committees</a></li>
+            <li><a href="registration.html" class="hover:text-sky-400 transition">Registration Fees</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Tracks -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4 font-heading">Conference Tracks</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="call-for-papers.html#track-1" class="hover:text-sky-400 transition">01. Smart Computing</a></li>
+            <li><a href="call-for-papers.html#track-2" class="hover:text-sky-400 transition">02. Communication & Signal Processing</a></li>
+            <li><a href="call-for-papers.html#track-3" class="hover:text-sky-400 transition">03. Secure & Sustainable World</a></li>
+            <li><a href="call-for-papers.html#track-4" class="hover:text-sky-400 transition">04. Intelligent Systems & Analytics</a></li>
+            <li><a href="call-for-papers.html#track-5" class="hover:text-sky-400 transition">05. Smart Embedded Systems</a></li>
+            <li><a href="call-for-papers.html#track-6" class="hover:text-sky-400 transition">06. Power & Energy Systems</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4 font-heading">Conference Secretariat</h4>
+          <div class="space-y-3 text-xs">
+            <p class="leading-relaxed">
+              <strong>Muthoot Institute of Technology & Science</strong><br>
+              Varikoli P.O., Puthencruz, Ernakulam,<br>
+              Kerala – 682 308, India
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope text-sky-400 mr-2"></i>
+              <a href="mailto:icscc2027@mgits.ac.in" class="hover:text-white">icscc2027@mgits.ac.in</a>
+            </p>
+            <p>
+              <i class="fa-solid fa-phone text-sky-400 mr-2"></i>
+              <span>+91-9495686350</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-globe text-sky-400 mr-2"></i>
+              <a href="http://icscc.mgmits.ac.in" target="_blank" class="hover:text-white">icscc.mgmits.ac.in</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Disclaimer -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2027 ICSCC • Muthoot Institute of Technology and Science (MITS). All Rights Reserved.</p>
+        <p class="text-slate-400">Designed with Blue & White Academic Theme for ICSCC 2027</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 z-40 bg-blue-800 text-white w-11 h-11 rounded-full shadow-xl flex items-center justify-center opacity-0 pointer-events-none hover:bg-blue-900 transition-all focus:outline-none" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
